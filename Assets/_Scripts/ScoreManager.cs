@@ -6,7 +6,7 @@ using UnityEngine;
 public class ScoreManager : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
-    private int score;
+    private static int score;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +20,7 @@ public class ScoreManager : MonoBehaviour
         scoreText.text = score.ToString();
     }
 
-    public void AddScore(int points)
+    public static void AddScore(int points)
     {
         // score = score + points;
         score += points;
