@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6473942816437278525}
   - component: {fileID: 1003112976959849422}
   - component: {fileID: 865267575842743428}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bumper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.035, y: 0.121, z: -0.0915}
-  m_LocalScale: {x: 0.09, y: 0.02, z: 0.09}
+  m_LocalScale: {x: 0.09, y: 0.020000001, z: 0.09000001}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4126198953197577168}
